@@ -7,7 +7,10 @@ Library  SeleniumLibrary
 Library  DateTime
 
 *** Variables ***
+
 ${BROWSER}  chrome
+${BROWSER}  headlesschrome
+
 ${URL}  http://rental7.infotiv.net
 
 *** Test Cases ***
